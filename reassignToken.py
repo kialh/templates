@@ -5,9 +5,9 @@ final = '{0}{1}{2}{3}{4}{5}{6}{7}{8}{9}{10}{11}{12}{13}{14}'.format(
 "1) Log into "
     "the FortiGate with tmc_emergency details (password stored in TPM) in Read-Write mode.\n\
 2) Go to root Virtual Domain. Under User & Device list, choose User -> User definition. \n\
-3) Create new TMC-LDAP server user.\n\
-4) Select ",username,"user and add selected.\n\
-5) Edit ",username,"and write his tmc e-mail. Assign him/her a token. Send the activation code.\n\
+3) Search for ",username," and right-click on it. Revoke the token.\n\
+4) Edit the account ",username," and assign him a new token.\n\
+5) Send the activation code on the same step.\n\
 6) Log out from the FortiGate.\n\
 7) Perform a config retrieve in FortiManager: log in with your own details.\n\
 \t - Lock the ADOM called EUROPE.\n\
